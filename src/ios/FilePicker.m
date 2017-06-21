@@ -100,7 +100,7 @@
     if (!CGRectEqualToRect(senderFrame, CGRectZero)) {
         importMenu.popoverPresentationController.sourceRect = senderFrame;
     }
-    [self.viewController presentViewController:importMenu animated:YES completion:nil];
+    [self.viewController presentViewController:importMenu animated:NO completion:nil];
     
 }
 
